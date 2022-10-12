@@ -1,7 +1,9 @@
 a{
     text-decoration: none
 }
-
+body{
+    font-family: 'Open Sans', sans-ser;
+}
 #cubierta {
     width: 940px;
     margin: 0px 15px 0px 15px;
@@ -14,7 +16,9 @@ a{
     margin-left: 0px;
     margin-right:0px;
 }
-
+/************
+EMCABEZADO
+*************/
 header{
     background-color: #FF884B;
     border-color: rgb(0, 0, 0);
@@ -23,6 +27,23 @@ header{
 }
 h1, h2 {
     color: #fff;
+}
+/***********
+NAVEGACIÓN
+***********/
+nav {
+    text-align: center;
+    padding: 10px px;
+    margin: 20px 0px 0px;
+}
+/*************
+PIE DE PÁGINA
+*************/
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px ;
+    color: #ccc;
 }
 
 nav {
@@ -38,4 +59,15 @@ nav a.selected, nav a:hover{
 body {
     color :aqua;
     background-color: blue;
+}
+h1{
+    font-family: "courgette",cursive;
+    margin: 15px, 0px, 15px, 0px;
+    font-size: 1.75;
+    font-weight: normal;
+}
+h2{
+    font-size: 1em;
+    margin: -13px, 0px, opx;
+    font-weight: normal;
 }
