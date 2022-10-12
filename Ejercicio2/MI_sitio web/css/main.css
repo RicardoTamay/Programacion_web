@@ -31,8 +31,11 @@ nav {
 
 nav a, nav a:visited{
     color: #EDEDED ;
-
 }
 nav a.selected, nav a:hover{
-    color: #3C2317;
+    color: red;
+}
+body {
+    color :aqua;
+    background-color: blue;
 }
